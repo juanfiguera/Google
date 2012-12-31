@@ -1,0 +1,108 @@
+*{
+	margin:0;
+}
+#container {
+	min-height: 100%
+	position: relative;
+	background: #fff;
+}
+#navigation {
+	background: #000;
+	padding: 5px;
+}
+#navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+}
+#navigation li {
+	display: inline;
+}
+#navigation a {
+	text-decoration: none;
+	font-family: Arial, 'Helvetica Neue', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #AAA;
+	margin: 7px;
+}
+#navigation a:hover {
+	color: #FFF;
+}
+#nav2{
+	color: #555;
+	float: right; 
+	font-family: Arial, 'Helvetica Neue', sans-serif;
+	font-size: 13px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+#content {
+	padding-bottom: 60px;
+}
+#content #logo {
+	margin-top: 180px;
+	margin-left: auto;
+	margin-right: auto;
+    width: 260px;   /* 12/30/12 - JF: need to check other ways to center align  */
+}
+#content #searchBox input[type=text]{
+	margin-top: 20px;
+	width: 500px;
+	height: 30px;
+	margin-left: 400px;
+	margin-right: auto;
+	border: 1px solid #BBB;
+}
+#content #buttons input[type=button]{
+	margin-top: 10px;
+	font-family: Arial, 'Helvetica Neue', sans-serif;
+	font-size: 11px;
+	background: #EEE;
+	color: #555;
+	font-weight: bold;
+	padding: 7px;
+	border-radius: 2px;
+	border: 1px solid #CCC; /* 12/30/12 - JF: check  */
+}
+#content #buttons #searchButton{
+	margin-left: 540px;
+}
+#content #buttons #otherButton{
+	margin-left: 11px;
+}
+#content #ads {
+	margin-top: 37px;
+	text-align: center;
+	font-size: 12px;
+	font-family: Arial, 'Helvetica Neue', sans-serif;	
+	color: #333;
+}
+#content #ads a {
+	font-size: 13px;
+	text-decoration: none;
+	color: blue;
+}
+#footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 2px;
+	background: #EEE;
+	border-top: 1px solid #DDD;	
+}
+#footer ul {
+	list-style-type: none;
+	float: right;
+	padding-right: 30px;
+}
+#footer li {
+	display: inline;
+}
+#footer a {
+	text-decoration: none;
+	font-family: Arial, 'Helvetica Neue', sans-serif;
+	font-size: 13px;
+	color: #888;
+	padding: 10px;
+}
